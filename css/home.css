@@ -298,6 +298,19 @@ h4 {
     width: 302px;
 }
 
+.pick-food img {
+    max-width: initial;
+}
+
+h4 a {
+    font-family: "Libre Bodoni";
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 /* Visit Our Restaurant */
 
 .visit-our-restaurant {
@@ -383,7 +396,6 @@ h4 {
     color: #FFF;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 30px;
 }
 
 /* COLUMN 1 */

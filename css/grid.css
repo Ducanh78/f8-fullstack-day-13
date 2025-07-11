@@ -763,6 +763,10 @@
 
 
 @media (max-width: 575.98px) {
+    .text-20 {
+        margin-top: 30px;
+    }
+
     .container {
         max-width: calc(100% - 30px) ;
     }
