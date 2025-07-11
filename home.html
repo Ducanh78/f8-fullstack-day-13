@@ -1,13 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-        
+      <div class="container">
+        <div class="header">
+          <div class="row">
+            <div class="col-6 col-md-5">
+              <div class="row">
+                <div class="col d-none d-md-block">
+                  <div class="click-menu">
+                    <input type="checkbox" id="toggle" hidden />
+                    <label for="toggle" class="toggle">
+                      <i class="fa-solid fa-list"></i>
+                    </label>
+                    <div class="sub-menu">
+                      <li><a href="#!">Home</a></li>
+                      <li><a href="#!">Menu</a></li>
+                      <li><a href="#!">Blog</a></li>
+                      <li><a href="#!">Pages</a></li>
+                      <li><a href="#!">Contact</a></li>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-md-none">
+                  <ul class="left-navbar">
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">Menu</a></li>
+                    <li><a href="#!">Blog</a></li>
+                    <li><a href="#!">Pages</a></li>
+                    <li><a href="#!">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 col-md-2"><img src="./img/Vector.svg" /></div>
+
+            <div class="col-5">
+              <div class="right-navbar">
+                <div class="row">
+                  <div class="col d-md-none">
+                    <p>11:24 we’re open</p>
+                  </div>
+                  <div class="col">
+                    <a href="#!">Table Reservation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-md-1">
+            <div class="col-7">
+              <div class="left-header">
+                <p>Hi, new friend!</p>
+                <h2>We do not cook, we create your emotions!</h2>
+                <p>
+                  There's evidence that cooking, like other creative practices,
+                  can boost well-being, self-esteem, and other measures of
+                  mental health.
+                </p>
+                <a href="#!">Our menu</a>
+              </div>
+            </div>
+
+            <div class="col-5">
+              <div class="right-header">
+                <div class="row">
+                  <div class="col-10">
+                    <img src="./img/image 89.png" />
+                    <p class="text-24">Price:$11</p>
+                  </div>
+                  <div class="col-2">
+                    <div class="img-inside">
+                      <img src="./img/image 90.png" />
+                      <img src="./img/image 77.png" />
+                      <img src="./img/image 91.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FROG -->
+      <div class="frog">
+        <div class="container">
+          <div class="row">
+            <h2 class="col">06</h2>
+            <h2 class="col">68</h2>
+            <h2 class="col">36</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOST POPULAR FOOD -->
+      <div class="most-popular">
+        <div class="container">
+          <div class="most-popular-food">
+            <h2>Most popular food</h2>
+            <p>
+              A list of most popular Bangladeshi food including mains, drinks,
+              and deserts you must try while in Bangladesh, for an authentic
+              experience. Check now!
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col col-lg-6 col-md-12">
+              <img src="./img/Rectangle 10.png" alt="" />
+              <div class="most-popular-food-menu">
+                <p class="text-24">Schezwan Noodles</p>
+                <p class="text-24">$49</p>
+              </div>
+            </div>
+            <div class="col col-lg-6 col-md-12">
+              <img src="./img/Rectangle 10 (1).png" alt="" />
+              <div class="most-popular-food-menu">
+                <p class="text-24">Schezwan Noodles</p>
+                <p class="text-24">$49</p>
+              </div>
+            </div>
+            <div class="col col-lg-6 col-md-12">
+              <img src="./img/Rectangle 10 (2).png" alt="" />
+              <div class="most-popular-food-menu">
+                <p class="text-24">Schezwan Noodles</p>
+                <p class="text-24">$49</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPEN TIME -->
+      <div class="open-time">
+        <div class="container">
+          <div class="row row-cols-md-1">
+            <div class="col-6">
+              <div class="open-time-left">
+                <p class="text-24">Find us gere</p>
+                <p>
+                  Avenue Marina 34568 NY (U.S) +0123 456 7890
+                  hellouihut@gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="open-time-right">
+                <p class="text-24">Openning Times</p>
+                <div class="open-time-right-hour">
+                  <p>Mon</p>
+                  <p>17:00 to 23:00</p>
+                </div>
+                <div class="open-time-right-hour">
+                  <p>Wed</p>
+                  <p>19:00 to 24:00</p>
+                </div>
+                <div class="open-time-right-hour">
+                  <p>Thu</p>
+                  <p>14:00 to 18:00</p>
+                </div>
+                <div class="open-time-right-hour">
+                  <p>Fr</p>
+                  <p>16:00 to 24:00</p>
+                </div>
+                <div class="open-time-right-hour">
+                  <p>Sat/Sun</p>
+                  <p>20:00 to 4:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Choose & Taste What You Like -->
+      <div class="choose-taste">
+        <div class="container">
+          <div class="choose-taste-text">
+            <p>Our menu</p>
+            <h2>Choose & Taste What You Like</h2>
+            <p>
+              A list of top Bangladeshi food including mains, drinks, and
+              deserts you must try while in Bangladesh, for an authentic
+              experience. Check now!
+            </p>
+          </div>
+          <div class="list-menu">
+            <div class="row row-cols-md-3">
+              <div class="col"><h4>All</h4></div>
+              <div class="col"><h4>Appetizer</h4></div>
+              <div class="col"><h4>Soup</h4></div>
+              <div class="col"><h4>Dessert</h4></div>
+              <div class="col"><h4>Drinks</h4></div>
+            </div>
+          </div>
+          <div class="row row-cols-md-1">
+            <div class="col-6 pick-food">
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Chawli Beans and Mint Burger</h4>
+                </div>
+                <h4>$11</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>American Chopsuey, Jain Recipe</h4>
+                </div>
+                <h4>$16</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Paneer Nuggets, Quick Paneer Deep-fried</h4>
+                </div>
+                <h4>$15</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Stir Fried Mixed Vegetables in Butter</h4>
+                </div>
+                <h4>$23</h4>
+              </div>
+            </div>
+
+            <div class="col-6 pick-food">
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Raw Chicken Fillet Garlic</h4>
+                </div>
+                <h4>$25</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Makai Shorba, Thick Corn Soup</h4>
+                </div>
+                <h4>$14</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Healthy Salmon Power Bowl</h4>
+                </div>
+                <h4>$09</h4>
+              </div>
+
+              <div>
+                <div>
+                  <img src="./img/Ellipse 30.svg" />
+                  <h4>Paneer N Cheese Roll ( Wraps and Rolls)</h4>
+                </div>
+                <h4>$10</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visit Our Restaurant -->
+      <div class="visit-our-restaurant">
+        <div class="container">
+          <div class="visit-our-restaurant-text">
+            <h2>Visit Our Restaurant</h2>
+            <p>
+              Quality country-style menu selection, friendly and efficient
+              service, combined with genuine value has kept Our Best serving
+              families like yours for over 28.
+            </p>
+          </div>
+          <div class="row gy-3">
+            <div class="col-4 col-md-6 col-sm-12">
+              <div class="row gy-3">
+                <div class="col-12">
+                  <img src="./img/Rectangle 77.png" />
+                </div>
+                <div class="col-12">
+                  <img src="./img/Rectangle 80.png" />
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-md-6 col-sm-12">
+              <img src="./img/Rectangle 78.png" />
+            </div>
+            <div class="col-4 col-md-6 col-sm-12">
+              <div class="row gy-3">
+                <div class="col-12">
+                  <img src="./img/Rectangle 79.png" />
+                </div>
+                <div class="col-12">
+                  <img src="./img/Rectangle 81.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Book Now -->
+      <div class="book-now">
+        <div class="container">
+          <div class="row gx-3">
+            <div class="col-6 col-md-12">
+              <img src="./img/Rectangle 9.png" />
+            </div>
+            <div class="col-6 col-md-12">
+              <img src="./img/Rectangle 9.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Daily Offers -->
+      <div class="our-daily-offers">
+        <div class="container">
+          <h2>Our Daily Offers</h2>
+          <div class="row row-cols-md-1">
+            <div class="col-6"><img src="./img/Rectangle 27.png" /></div>
+            <div class="col-6"><img src="./img/Rectangle 27.png" /></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="orange-line">Orange-Line</div>
+
+      <!-- They will cook for you -->
+      <div class="they-will-cook-for-you">
+        <h2>They will cook for you</h2>
+        <p>
+          Our Diners can enjoy cooking for themselves, or visiting a curated
+          selection of restaurants in the area. They will cook for you and make
+          sure you have a home away from home at all times.
+        </p>
+        <div class="container">
+          <div class="row row-cols-md-2 row-cols-sm-1">
+            <div class="col-4"><img src="./img/Rectangle 82.png" /></div>
+            <div class="col-4"><img src="./img/Rectangle 82.png" /></div>
+            <div class="col-4"><img src="./img/Rectangle 82.png" /></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Articles -->
+      <div class="recent-articles">
+        <p>Our blog</p>
+        <h2>Recent Articles</h2>
+        <div class="container">
+          <div class="row row-cols-sm-1">
+            <div class="col-6"><img src="./img/hamburger.png" /></div>
+            <div class="col-6"><img src="./img/pizza.png" /></div>
+          </div>
+          <div class="row row-cols-sm-1">
+            <div class="col-6"><img src="./img/pizza.png" /></div>
+            <div class="col-6"><img src="./img/hamburger.png" /></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter"><img src="./img/newsletter.png" /></div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <div class="container">
+          <div
+            class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1"
+          >
+            <!-- Col 1 -->
+            <div class="col-3">
+              <div class="row">
+                <div class="col-12">
+                  <img src="./img/Group 55.svg" />
+                </div>
+                <div class="col-12">
+                  <p>Download the WowWraps app today.</p>
+                </div>
+                <div class="col-12">
+                  <img src="./img/Frame.svg" />
+                  <img src="./img/Frame (1).svg" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Col 2 -->
+            <div class="col-2">
+              <p class="text-20">Usefull Link</p>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Services</p>
+              <p>Booking</p>
+              <p>Menu</p>
+            </div>
+
+            <!-- Col 3 -->
+            <div class="col-3">
+              <p class="text-20">Contact Info</p>
+              <p>Silk St, Barbican, London EC2Y 8DS, UK</p>
+              <p>info@example.com</p>
+              <p>800-123-45-678</p>
+            </div>
+
+            <!-- Col 4 -->
+            <div class="col-2">
+              <p class="text-20">Follow us</p>
+              <p>Facebook</p>
+              <p>Instagram</p>
+              <p>Linkedin</p>
+              <p>Twitter</p>
+            </div>
+
+            <!-- Col 5 -->
+            <div class="col-2">
+              <p class="text-20">Legal</p>
+              <p>Website by uihut.com</p>
+              <p>©2022. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

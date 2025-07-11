@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background-color: #111114;
+
+}
+
+.text-24 {
+    font-family: "Libre Bodoni";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+a,
+p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    text-decoration: none;
+    line-height: 26px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Libre Bodoni", serif;
+    color: #fff;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-family: "Libre Bodoni";
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1170px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .row:first-child {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.left-navbar {
+    display: flex;
+    gap: 34px;
+    line-height: 26px;
+}
+
+.header .col-1 img {
+    max-width: initial;
+}
+
+.left-navbar a {
+    max-width: 100%;
+}
+
+.right-navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.right-navbar a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header .row:nth-child(2) {
+    margin-top: 26px;
+}
+
+.left-header {
+    margin-top: 54px
+}
+
+.left-header h2 {
+    margin: 10px 0 20px 0;
+}
+
+.left-header a {
+    margin-top: 40px;
+    float: left;
+    border-bottom: 1px solid #FB8F2C;
+    color: #FB8F2C;
+}
+
+.right-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.right-header p {
+    position: absolute;
+    top: 305px;
+    left: -31px;
+    display: inline;
+    background-color: #FB8F2C;
+    padding: 12px 16px 8px 16px;
+}
+
+.img-inside img:nth-child(1) {
+    margin-left: -15px
+}
+
+.img-inside img:nth-child(2) {
+    padding: 30px 0;
+}
+
+.img-inside img:nth-child(3) {
+    margin-left: -15px
+}
+
+.img-inside img {
+    max-width: initial;
+}
+
+/* CHECKBOX */
+.toggle {
+    color: #fff;
+    cursor: pointer;
+}
+
+.click-menu {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 20px;
+    background-color: rgb(42 41 41);
+    width: 150px;
+    display: none;
+}
+
+.sub-menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid #474747;
+    
+}
+.sub-menu a {
+    padding: 10px;
+}
+
+#toggle:checked ~ .sub-menu {
+    display: block;
+}
+
+/* FROG */
+.frog {
+    margin-top: 96px;
+    height: 194px;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.frog h2 {
+    text-align: center;
+    height: 194px;
+    margin-top: 60px;
+}
+
+/* Most popular food */
+.most-popular {
+    text-align: center;
+}
+
+.most-popular-food {
+    text-align: center;
+
+}
+
+.most-popular-food h2 {
+    margin-top: 187px;
+}
+
+.most-popular-food p {
+    display: inline-block;
+    width: 601px;
+    margin: 20px 0 60px 0;
+    max-width: 100%;
+}
+
+
+
+/* OPEN TIME */
+.open-time {
+    margin-top: 102px;
+    text-align: center;
+}
+
+.open-time-left {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.open-time-right {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB8F2C;
+}
+
+.open-time-right p {
+    color: #111114;
+    padding-top: 10px;
+}
+
+.open-time-right-hour {
+    display: flex;
+    width: 295px;
+    justify-content: space-between;
+}
+
+/* Choose-taste */
+.choose-taste {
+    margin-top: 150px;
+}
+
+.choose-taste-text {
+    text-align: center;
+
+}
+
+.choose-taste-text h2 {
+    margin: 10px 0 20px 0;
+}
+
+.choose-taste-text p {
+    display: inline-block;
+    width: 601px;
+    max-width: 100%;
+}
+
+.list-menu {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.pick-food>div {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.pick-food>div h4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pick-food>div>div {
+    display: flex;
+}
+
+.pick-food>div>div h4 {
+    margin-left: 20px;
+}
+
+.pick-food div h4:first-of-type {
+    width: 302px;
+}
+
+/* Visit Our Restaurant */
+
+.visit-our-restaurant {
+    margin-top: 152px;
+    text-align: center;
+}
+
+.visit-our-restaurant-text p {
+    display: inline-block;
+    width: 625px;
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+/* Book Now */
+.book-now {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+/* Our Daily Offers */
+.our-daily-offers {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.our-daily-offers h2 {
+    margin-bottom: 52px;
+}
+
+
+
+.orange-line {
+    margin: 150px 0;
+    height: 136px;
+    text-align: center;
+    background-color: #FB8F2C;
+}
+
+/* They will cook for you */
+.they-will-cook-for-you {
+    text-align: center;
+
+}
+
+.they-will-cook-for-you p {
+    display: inline-block;
+    width: 768px;
+    margin: 16px 0 40px 0;
+    max-width: 100%;
+}
+
+/* Recent Articles */
+.recent-articles {
+    margin-top: 248px;
+    text-align: center;
+}
+
+.recent-articles h2 {
+    margin: 20px 0 60px 0;
+}
+
+.recent-articles .row .col-6 {
+    background-color: transparent;
+}
+
+.recent-articles .container>* {
+    padding: 30px 0
+}
+
+/* Newsletter */
+.newsletter img {
+    width: 100%;
+    height: 242px;
+    margin: 222px 0 100px 0;
+}
+
+
+/* FOOTER */
+.text-20 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* COLUMN 1 */
+.footer .row div:first-child p {
+    margin: 76px 0 18px 0;
+    display: inline-block;
+    width: 211px;
+}
+
+/* COLUMN 2 */
+.footer {
+    margin-bottom: 50px;
+}
+
+.footer .row div:nth-child(2) p:first-child {
+    margin-bottom: 24px
+}
+
+.footer .row div:nth-child(2) p:not(:first-child) {
+    margin-bottom: 16px
+}
+
+/* COLUMN 3 */
+.footer .row div:nth-child(3) p:first-child {
+    margin-bottom: 24px
+}
+
+.footer .row div:nth-child(3) p:not(:first-child) {
+    margin-bottom: 16px;
+}
+
+/* COLUMN 4 */
+.footer .row div:nth-child(4) p:first-child {
+    margin-bottom: 24px
+}
+
+.footer .row div:nth-child(4) p:not(:first-child) {
+    margin-bottom: 16px
+}
+
+/* COLUMN 5 */
+.footer .row div:nth-child(5) p:first-child {
+    margin-bottom: 24px
+}
+
+.footer .row div:nth-child(5) p:not(:first-child) {
+    margin-bottom: 16px
+}
